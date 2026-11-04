@@ -1,0 +1,8 @@
+grabmyo_dataset/
+*.zip
+*.dat
+*.hea
+*.mat
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
