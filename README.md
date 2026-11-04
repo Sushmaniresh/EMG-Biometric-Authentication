@@ -36,7 +36,7 @@ The dataset (about 9 GB) is **not included** in this repo. Download it from Phys
 - Data: session 1, all 43 participants
 - Split: random 80/20 train/test split (Random Forest, 100 trees)
 - **76% accuracy, 0.75 macro F1** on 1,024 test recordings
-- Accuracy per participant ranged from 0.41 to 0.98
+- F1 per participant ranged from 0.41 to 0.98
 
 **Read this number carefully:**
 - This is **identification** (which of 43 people is this?), not **verification** (is this the claimed user?). Authentication is usually reported as EER, FAR and FRR, which this notebook does not compute yet.
